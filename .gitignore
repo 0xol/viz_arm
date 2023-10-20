@@ -4,3 +4,7 @@
 *.fd
 *.iso
 *.bin
+*.EFI
+*.sys
+*.exe
+limine/limine
