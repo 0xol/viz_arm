@@ -1,0 +1,14 @@
+{
+    "configurations": [
+      {
+        "name": "viz",
+        "includePath": ["${workspaceFolder}/**"],
+        "defines": ["limine"],
+        "compilerPath": "",
+        "cStandard": "c11",
+        "cppStandard": "c++14",
+        "IntelliSenseMode": "gcc-arm"
+      }
+    ],
+    "version": 4
+  }

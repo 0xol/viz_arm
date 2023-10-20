@@ -1,0 +1,16 @@
+{
+    "files.associations": {
+        "stdint.h": "c",
+        "stdbool.h": "c",
+        "lock.h": "c",
+        "limine.h": "c",
+        "printf.h": "c",
+        "dtb.h": "c",
+        "vmm.h": "c",
+        "pmm": "c",
+        "align.h": "c",
+        "panic.h": "c",
+        "string.h": "c",
+        "pmm.h": "c"
+    }
+}
