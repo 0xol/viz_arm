@@ -109,7 +109,8 @@ int vprintf_(const char* format, va_list va);
  */
 int fctprintf(void (*out)(char character, void* arg), void* arg, const char* format, ...);
 
-#define print(format, ...) printf("[" __FILE__ "] " format "\n", __VA_ARGS__)
+#define print(format, ...) printf("[" __FILE__ ":%i] " format "\n", __LINE__, __VA_ARGS__)
+#define print_text(format) printf("[" __FILE__ ":%i] " format "\n", __LINE__);
 
 #ifdef __cplusplus
 }

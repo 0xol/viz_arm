@@ -21,7 +21,7 @@ def get_src(path: str):
 get_src(f"arch/{comp.arch}")
 get_src(f"boot/{comp.bootloader}")
 get_src(f"lib")
-#get_src("drivers")
+get_src("drivers")
 #get_src("fs")
 get_src("kernel")
 get_src("mm")

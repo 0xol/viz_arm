@@ -51,3 +51,18 @@ int memcmp(const void *s1, const void *s2, size_t n) {
 
     return 0;
 }
+
+int strncmp(const char *s1, const char *s2, size_t n) {
+    while (n > 0) {
+        if (*s1 != *s2) {
+            return (*s1 < *s2) ? -1 : 1;
+        }
+        if (*s1 == '\0') {
+            return 0;
+        }
+        s1++;
+        s2++;
+        n--;
+    }
+    return 0;
+}

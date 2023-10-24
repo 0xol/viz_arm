@@ -4,6 +4,6 @@
 #include <lib/printf.h>
 #include <arch/halt.h>
 
-#define PANIC(x) printf("["__FILE__"] PANIC: "x"\n ***SYSTEM HALTED***\n"); halt();
+#define PANIC(x) printf("["__FILE__":%i] PANIC: "x"\n ***SYSTEM HALTED***\n", __LINE__); halt();
 
 #endif

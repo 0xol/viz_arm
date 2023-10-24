@@ -11,6 +11,9 @@
         "align.h": "c",
         "panic.h": "c",
         "string.h": "c",
-        "pmm.h": "c"
+        "pmm.h": "c",
+        "assert.h": "c",
+        "acpi.h": "c",
+        "check.h": "c"
     }
 }
